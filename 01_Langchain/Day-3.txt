@@ -12,3 +12,30 @@ context: hdfc bank details only
 Prompt:  where is the bank?
 output indicator: one word, specific format, few sententes or summary
          
+
+IPC -> Pipes -> 
+    Linux -> cat myfile.txt | less
+    | will be managed by shell 
+    | runnablesequences(chain1)
+
+
+Memory -> 
+    1. [ prompt template + memory, full prompt] LLM is a stateless service
+        1. short term -> in memory 
+        2. long term -> persitance of data 
+
+    
+Chat with PDF [10L Line of content] -> upload a pdf and ask any question about the pdf
+    
+    RAG -> Retrivieal Augmented Generation 
+        1. Identify the data source [PDF]
+        2. Convert the data into vectors [Vecor db] -> Embedings 
+        3. User gives a question or prompt -> into vetor data 
+        4. vector search on the vector db of relevant data for you llm -> Retriveal data 
+        5. augment -> append -> Retriveal data + prompt 
+        6. generation -> generating the data 
+
+
+Application: 
+    Prompt engg -> required data will be sent from llm 
+    memory -> data required in your object for every request.
