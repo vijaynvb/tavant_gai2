@@ -1,0 +1,14 @@
+
+
+
+Foundation Model: 
+    1. BFSI
+    2. Geo Maps
+    3. Health care domain
+
+
+systeminformation: your a ai bot working for BFSI
+context: hdfc bank details only
+Prompt:  where is the bank?
+output indicator: one word, specific format, few sententes or summary
+         
