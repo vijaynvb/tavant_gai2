@@ -1,0 +1,9 @@
+# dependencies for chat with pdf
+
+langchain_classic 
+langchain_community 
+langchain_aws 
+python-dotenv
+streamlit 
+tiktoken 
+faiss-cpu

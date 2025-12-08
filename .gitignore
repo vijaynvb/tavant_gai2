@@ -1,1 +1,3 @@
 01_Langchain/.env
+03_Chat_With_PDF/__pycache__/*
+03_Chat_With_PDF/.env
