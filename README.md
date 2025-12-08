@@ -13,3 +13,7 @@ Chat with PDF:
 
 1. Streamlit 
 2. Langchain 
+
+
+IT Support Chat Bot: [Infrastructure specific to org]
+    1. i have set of question and answers about the IT issues.
